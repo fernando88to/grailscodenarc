@@ -1,0 +1,31 @@
+<profile version="1.0">
+  <option name="myName" value="Default" />
+  <inspection_tool class="CodeNarc.BracesForTryCatchFinally" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="catchOnSameLineAsClosingBrace" value="true" />
+    <option name="catchOnSameLineAsOpeningBrace" value="true" />
+    <option name="finallyOnSameLineAsClosingBrace" value="true" />
+    <option name="finallyOnSameLineAsOpeningBrace" value="true" />
+  </inspection_tool>
+  <inspection_tool class="CodeNarc.ClosureStatementOnOpeningLineOfMultipleLineClosure" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.ExplicitCallToAndMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.ExplicitCallToCompareToMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.ExplicitCallToOrMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.GrailsDomainHasEquals" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.GrailsDomainHasToString" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.JUnitTestMethodWithoutAssert" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CodeNarc.JavaIoPackageAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.JavadocEmptyFirstLine" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.SpaceAfterMethodCallName" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.SpaceAroundMapEntryColon" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="characterAfterColonRegex" value="\s" />
+  </inspection_tool>
+  <inspection_tool class="CodeNarc.UnnecessaryReturnKeyword" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.UnnecessarySemicolon" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.UnusedArray" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.UnusedMethodParameter" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.UnusedObject" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.UnusedPrivateField" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.UnusedPrivateMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.UnusedPrivateMethodParameter" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CodeNarc.UnusedVariable" enabled="true" level="WARNING" enabled_by_default="true" />
+</profile>
